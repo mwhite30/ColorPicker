@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:name = "edu.temple.m.fragmentcolorpicker.CanvasFragment"
+        android:id = "@+id/canvas_fragment"
+        android:layout_weight = "1"
+        android:layout_width = "1dp"
+        android:layout_height = "match_parent"
+        android:layout_alignBottom="@id/palette_fragment"
+    />
+
+</RelativeLayout>
